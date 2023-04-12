@@ -1,0 +1,230 @@
+navigation section #nav1 {
+    width: 100%;
+    height: auto;
+}
+
+#nav1c ul li {
+    list-style: none;
+    font-size: 25px;
+}
+
+#nav1c ul li a {
+    margin: -25px;
+}
+
+#logol img {
+    height: 6rem;
+    width: auto;
+}
+
+#logorr img {
+    height: 6rem;
+    width: auto;
+}
+
+#logoll {
+    height: auto;
+    width: 9rem;
+}
+
+#logorr {
+    height: auto;
+}
+
+
+/* home */
+
+#home {
+    min-height: 70vh;
+}
+
+.h-primary {
+    font-size: 25px;
+}
+
+#btn1 .btn {
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+/* home 2 */
+
+.slide-content {
+    width: 450px;
+}
+
+.image-content {
+    margin-left: 8px;
+    margin-top: 60px;
+    height: 200px;
+    width: 300px;
+}
+
+.card-content h2 {
+    margin-top: 5px;
+    margin-right: 70px;
+}
+
+.card-content p {
+    margin-top: 5px;
+    margin-right: 70px;
+}
+
+.card-content .btn2 {
+    margin-right: 90px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+/* footer */
+
+.footer {
+    min-height: 41vh;
+    gap: 2rem;
+}
+
+.f1 {
+    width: 15vw;
+}
+
+.f1 p {
+    font-size: 14px;
+}
+
+.f1 h1 {
+    font-size: 25px;
+}
+
+.f1 h2 {
+    font-size: 15px;
+}
+
+.f1 img {
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
+
+.f1 img {
+    height: 30px;
+    margin: 5px;
+}
+
+.f1 h3 {
+    font-size: 12px;
+}
+
+.f1 .f2p {
+    font-size: 15px;
+}
+
+.f1 .f13p {
+    font-size: 13px;
+}
+
+#f13i {
+    flex-wrap: wrap;
+    height: auto;
+    margin: 2px;
+}
+
+@media screen and (max-width:1045px) {
+    #nav1c ul li a {
+        margin: -35px;
+    }
+    #logorr {
+        height: auto;
+        width: auto;
+    }
+    .footer {
+        min-height: 40vh;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:930px) {
+    #homec {
+        bottom: 15%;
+    }
+    #nav1c ul li {
+        list-style: none;
+        font-size: 17px;
+    }
+    #nav1c ul li a {
+        margin: -40px;
+    }
+    #logoll {
+        height: 6em;
+        width: 100%;
+    }
+    #logol img {
+        display: none;
+    }
+    #logorr img {
+        display: none;
+    }
+    .card-image .card-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .footer {
+        min-height: 55vh;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width:690px) {
+    #homec {
+        bottom: 15%;
+    }
+    .f1 p {
+        font-size: 10px;
+    }
+    .f1 .f2p {
+        font-size: 12px;
+    }
+    .f1 h1 {
+        font-size: 15px;
+    }
+    .f1 h2 {
+        font-size: 15px;
+    }
+    .f1 .f13p {
+        font-size: 10px;
+    }
+    .footer {
+        min-height: 45vh;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #homec {
+        bottom: 15%;
+    }
+    .f1 p {
+        font-size: 18px;
+    }
+    .f1 .f2p {
+        font-size: 10px;
+    }
+    .f1 h1 {
+        font-size: 11px;
+    }
+    .f1 h2 {
+        font-size: 12px;
+    }
+    .f1 .f13p {
+        font-size: 7.5px;
+    }
+    .footer {
+        min-height: 40vh;
+        gap: 2rem;
+    }
+}
+
+
+/* media responsive till 400 px  */
